@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Creative programmer</title>
+    <link href="templatemo-personal-style.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 593 personal shape
+
+https://templatemo.com/tm-593-personal-shape
+
+-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Personal Shape</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">Programmer</div>
+            <h1>Turning Complex Problems Into Simple Digital Solutions</h1>
+            <p class="subtitle">I design and build software that not only works, but helps people solve real challenges with clarity, speed, and creativity.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>Passionate about solving problems and building impactful software.</h3>
+                    <p>As an IT student and competitive programmer, I focus on writing clean, efficient code and learning how technology can turn ideas into reality. My journey started with curiosity for problem-solving, and today I am working toward becoming a skilled software engineer.
+
+I believe good software is not only about functionality, but also about making life easier and smarter for people. Every project I take is an opportunity to learn, improve, and create something meaningful.
+
+When I’m not coding, you’ll find me practicing problem-solving on Codeforces, exploring new technologies, or learning how to design useful digital products.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Web Development (HTML, CSS, JS)</span>
+                        <span class="skill-tag">Python & C++</span>
+                        <span class="skill-tag">Brand Identity</span>
+                        <span class="skill-tag">Problem Solving & Algorithms</span>
+                        <span class="skill-tag">Learning AI & Machine Learning Basics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <h2 class="section-title fade-in">Featured Work</h2>
+    <div class="portfolio-grid">
+      
+      <div class="portfolio-item">
+        <div class="portfolio-image"></div>
+        <div class="portfolio-content">
+          <h4>Competitive Programming Tracker</h4>
+          <p>A web app to log Codeforces/LeetCode progress and visualize stats for improving problem-solving skills.</p>
+          <div class="portfolio-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image"></div>
+        <div class="portfolio-content">
+          <h4>Library Book Manager</h4>
+          <p>A desktop + GUI project to manage library records with search, add, and delete features.</p>
+          <div class="portfolio-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Tkinter</span>
+            <span class="tech-tag">SQLite</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image"></div>
+        <div class="portfolio-content">
+          <h4>Personal Portfolio Website</h4>
+          <p>Responsive portfolio to showcase projects, skills, and contact info. Customized and deployed online.</p>
+          <div class="portfolio-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="fade-in">Ready to bring your vision to life? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and collaborate on innovative projects.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Personal Shape. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#sitemap">Sitemap</a>
+                    <a href="https://templatemo.com" target="_blank" rel="noopener nofollow">Provided by TemplateMo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="templatemo-personal-javascripts.js"></script>
+
+</body>
+</html>
